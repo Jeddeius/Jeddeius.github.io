@@ -12,6 +12,10 @@ h1 {
         color: black;
     }
 
+h3 {
+    color: #000000;
+}
+
 blockquote {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
@@ -24,5 +28,6 @@ a {
 #footnote {
     text-align:center;
     align-items: center;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    color: #000000;
 }
