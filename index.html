@@ -1,44 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="default.css">
+        <link rel="stylesheet" type="text/css" href="selected.css">
         <title>Jeddeius Personal Website</title>
-        <link rel="stylesheet" href="indexStyle.css"> <!--Link external Cascading Style Sheet -->
-        <script src="indexJS.js"></script>
     </head>
     <body>
-        <h1>hi and my name is <span id="a0001">Jeddeius</span></h1>
-        <blockquote id="quote0">"Don't only think about the end result of your work, think and feel the experience of achieving success"</blockquote>
         
-        <h3>Websites</h3>
-        <ul>
-            <li><a href="https://www.linkedin.com/mwlite/in/jeddeius-matthew-tolentino-52200b219">LinkeIn</a></li>
-            <li><a href="https://github.com/Jeddeius">Github</a></li>
-        </ul>
+        <div>
+            <h1>
+                <span id="nameIntro">
+                    Hi and my name is
+                </span><br>
+                Jeddeius Matthew <br>
+                Tolentino<span style="color: lime">_</span>
+            </h1>
+        </div>
 
-        <h3>Contacts</h3>
-        <ul>
-            <li>
-                <p><b>Email: </b>jeddeiusmatthew21@gmail.com</p>
-            </li>
-        </ul>
+        <div id="basicInfo">
+            <h2>Who am I?</h2>
+            <ul>
+                <li>I am an aspiring General Engineer</li>
+                <li></li>
+            </ul>
+        </div>
 
-        <p><b>P.S.</b> I know it is very amateur</p>
+        <div align="right">
+            <h2>What do I do?</h2>
+            <ul>
+                <li>I'm still studying at my school.</li>
+                <li>I also self taught myself mathematics and engineering</li>
+            </ul>
+        </div>
 
-        <h3>External Links</h3>
-        <ul>
-            <li>
-                <a href="/Websites/DesmosSample.html">Desmos Sample</a>
-            </li>
-            <li>
-                <a href="/Websites/JavascriptPlayground.html">Javascript Playground</a>
-            </li>
-        </ul>
+        <div>
+            <h2>My achievements</h2>
+            <ul>
+                <li style="font-family: monospace;">Learned C++ programming at age 15</li>
+                <li>Learned Mathematics and Physics at age 16 (Soon)</li>
+            </ul>
+        </div>
+
+        <div id="cascade">
+            <div id="mission">
+                <h2>My mission</h2>
+                <p>
+                    Sample description
+                </p>
+            </div>
+
+            <div id="vision">
+                <h2>My vision</h2>
+                <p>
+                    Odeipus Rex
+                </p>
+            </div>
+        </div>
 
         <hr>
-        <span id="footnote">
-            <p>⚠ THIS PAGE IS UNDER CONSTRUCTION ⚠</p>
-            <p>Watch out for my personal website repository <a href="https://github.com/Jeddeius/Jeddeius.github.io">Jeddeius.github.io</a></p>
-            <p>Thank you!</p>
-        </span>
+
+        <div>
+            <footer>
+                <h3>Websites</h3>
+                <a href="https://www.linkedin.com/in/jeddeius-matthew-tolentino-52200b219/" target="_blank">
+                    <img src="assets/LI-In-Bug.png" width="3%" height="3%">
+                    Linkedin
+                </a><br size="80%">
+                <a href="https://github.com/Jeddeius" target="_blank">
+                    <img src="assets/GitHub-Mark-Light-120px-plus.png" width="3%" height="3%">
+                    Github
+                </a>
+                <br>
+                <br>
+                <span>Email: jeddeiusmatthew21@gmail.com</span>
+            </footer>
+        </div>
+
+        <script>
+            alert("Website still under development");
+        </script>
+
     </body>
 </html>
