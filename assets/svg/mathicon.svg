@@ -1,0 +1,23 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="605.26318" height="542.10095" id="svg2" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="Green pi.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" version="1.0">
+  <defs id="defs4">
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10"/>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" gridtolerance="10000" guidetolerance="10" objecttolerance="10" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.35" inkscape:cx="-99.285716" inkscape:cy="270.93037" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:window-width="1680" inkscape:window-height="1000" inkscape:window-x="-8" inkscape:window-y="-8"/>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-78.323906,-112.86846)">
+    <path d="M 581.13497,212.83386 L 550.79721,418.23542 C 544.82864,466.64337 541.8446,507.09368 541.84509,539.58645 C 545.1602,545.22307 556.10168,555.16986 574.66955,569.42687 C 589.25767,580.69997 596.55198,592.13879 596.55252,603.74336 C 596.55198,634.91002 580.96867,650.49333 549.80253,650.49335 C 522.94569,650.49333 498.9076,640.96098 477.68818,621.89628 C 456.46793,602.8316 445.85802,580.20263 445.8584,554.00932 C 445.85802,519.19562 449.00784,476.25861 455.30787,425.19818 L 487.13765,212.33652 L 332.96215,207.36312 L 301.62971,432.16095 C 300.30323,473.60613 295.32983,535.11049 286.7095,616.6742 C 282.399,642.20433 267.4788,654.96939 241.94887,654.96941 C 228.68629,654.96939 217.33037,650.65911 207.88106,642.03856 C 198.43145,633.418 193.70673,622.6423 193.70686,609.71144 L 238.46749,206.36844 C 209.29004,207.36355 185.58351,215.40387 167.34782,230.48944 C 149.11192,245.57582 135.68375,253.11881 127.06326,253.11843 C 114.46391,253.11881 103.19088,248.39408 93.244115,238.94423 C 83.297285,229.49517 78.323887,218.4708 78.323906,205.8711 C 78.323887,196.91941 81.639486,187.46995 88.270712,177.5227 C 117.44795,134.42037 176.13405,112.86898 264.32919,112.86846 C 290.85377,112.86898 336.44326,113.5321 401.09777,114.85782 C 465.75161,116.18458 511.34109,116.8477 537.86636,116.84718 C 548.4758,116.8477 564.47357,116.51614 585.8597,115.8525 C 607.24479,115.1899 623.40833,114.85834 634.35039,114.85782 C 667.17424,114.85834 683.58645,130.60743 683.58708,162.10515 C 683.58645,185.31481 671.15296,200.40079 646.28655,207.36312 C 633.68669,211.01071 611.96952,212.83428 581.13497,212.83386 L 581.13497,212.83386 z" id="pi" style="fill:#008000;fill-opacity:1"/>
+  </g>
+<style xmlns="" class="darkreader darkreader--fallback">html, body, body :not(iframe) {
+    background-color: #181a1b !important;
+    border-color: #776e62 !important;
+    color: #e8e6e3 !important;
+}
+
+</style></svg>
