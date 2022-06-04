@@ -56,6 +56,11 @@ a:hover {
     color: #ffffff;
 }
 
+a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6, a:hover p {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 a:active {
     background-color: #ff0000;
 }
@@ -74,4 +79,51 @@ header {
 p .picFont {
     height: 1em;
     width: auto;
+}
+
+figure {
+    border: 1px solid #000000;
+    padding: 1em;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    color:rgb(81, 81, 81);
+}
+
+figure .sbsimg {
+    width: 32%;
+    height: auto;
+}
+
+#ggb-element {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 90%;
+
+    margin: 4%;
+}
+
+#calculator {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.blockArt article {
+    padding: 7.5%;
+    border: 1px solid #000000;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.blockArt article h1 {
+    text-align: center;
+    margin: auto;
 }

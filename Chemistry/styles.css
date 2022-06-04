@@ -1,0 +1,63 @@
+/* @font-face {
+    src: url();
+} */
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer {
+    background-color: rgb(170, 170, 170);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px; 
+    border-top: 2px solid #000000;
+    padding-bottom: 2%;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}  
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+a:active {
+    background-color: #ff0000;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt .Pron {
+    text-decoration: none;
+    font-weight: normal;
+    font-style: italic;
+    font-size: small;
+}
+
+#link a {
+    display: block;
+}
+
+#link {
+    margin-bottom: 3%;
+}

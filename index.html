@@ -1,80 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Jeddeius Personal Website</title>
     <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div id="main">
-        <header>
-            <div id="webTitle">
-                <span>Hi and welcome</span>
-                <h1>Jeddeius'
-                    Personal 
-                    Website</h1>
-            </div>  
+    <link rel="icon" href="Assets/svg/favicon.svg" type="image/svg+xml">
 
-        </header>
-    
-        <main>
-            <section>
-                <h2>What is this website all about?</h2>
-                <p>
-                    The purpose of this website is to showcase my coding and programming skills.
-                    <ul>
-                        <li>The main page purpose is to introduce and present myself through
-                            impressive responsive, dynamic, and attractive web page. The main
-                            page also serve as portals to my various web pages with the purpose
-                            of both showcasing my skills as well as to potentially serve you</li>
-                        <li>There would be minor web pages dedicated to showcase my programming
-                            and coding skills as well as how much do I understand the concepts I
-                            learned</li>
-                        <li>
-                            There would be web pages that is actually my project, one of which is a
-                            public documentation of everything that I learned with the mission of
-                            encouraging productivity through convenient learning and problem solving,
-                            more details <a href="#">here</a> 
-                        </li>
-                    </ul>
-                </p>
-            </section>
-            <section>
-                <h2>About me</h2>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="author" content="Jeddeius Matthew Jaldo Tolentino">
+    <meta name="keywords" content="Jeddeius, Personal, Website">
+    <meta name="description" content="Jeddeius Personal Website to demonstrate proficiency in various skills and fields">
+
+    <!-- START OF KATEX INTEGRATION OVER THE WEBSITE -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"
+        integrity="sha384-ZPe7yZ91iWxYumsBEOn7ieg8q/o+qh/hQpSaPow8T6BwALcXSCS6C6fSRPIAnTQs" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"
+        integrity="sha384-ljao5I1l+8KYFXG7LNEA7DyaFvuvSCmedUf6Y6JI7LJqiu8q5dEivP2nDdFH31V4" crossorigin="anonymous">
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"
+        integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous">
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+                delimiters: [{
+                        left: '$$',
+                        right: '$$',
+                        display: true   
+                    },
+                    {
+                        left: '$',
+                        right: '$',
+                        display: false
+                    },
+                    {
+                        left: '\\(',
+                        right: '\\)',
+                        display: false
+                    },
+                    {
+                        left: '\\[',
+                        right: '\\]',
+                        display: true
+                    }
+                ],
+                // • rendering keys, e.g.:
+                throwOnError: false
+            });
+        });
+    </script>
+
+
+    <!-- END OF KATEX INTEGRATION OVER THE WEBSITE -->
+
+    <!-- HTML5 Shiv for backwards compatibility and old browser compatibility -->
+
+    <script src="/HTML5-Shiv/html5shiv-printshiv.js"></script>
+    <script src="/HTML5-Shiv/html5shiv.js"></script>
+
+    <!-- End of HTML5 Shiv for backwards compatibility and old browser compatibility -->
+</head>
+
+<body>
+    <header class="main">
+        <div id="webTitle">
+            <span>Hi and welcome</span>
+            <h1>Jeddeius'
+                Personal
+                Website</h1>
+        </div>
+        <div id="sideWebTitle">
+            <strong>Polymath and Philomath at humanity's service!</strong>
+        </div>
+    </header>
+
+    <nav class="main">
+        <h2>In this webpage</h2>
+        <ol type="I">
+            <li><a href="#s1">What is this website all about?</a></li>
+            <li><a href="#s2">About me</a>
+                <ol type="i">
+                    <li><a href="#s2-1">My Beliefs</a></li>
+                    <li><a href="#s2-2">My Vision</a></li>
+                    <li><a href="#s2-3">My Mission</a></li>
+                </ol>
+            </li>
+            <li><a href="#s4">Achievements and Skills</a></li>
+            <li><a href="#s3">Projects</a></li>
+        </ol>
+    </nav>
+
+    <p id="linkCatalog"><a href="/catalog.html">For link catalogs, click here!</a></p>
+
+    <main class="main">
+        <section>
+            <h2 id="s1">What is this website all about?</h2>
+            <p>
+                The purpose of this website is to showcase my coding and programming skills.
+                <ul>
+                    <li>The main page purpose is to introduce and present myself through
+                        impressive responsive, dynamic, and attractive web page. The main
+                        page also serve as portals to my various web pages with the purpose
+                        of both showcasing my skills as well as to potentially serve you</li>
+                    <li>There would be minor web pages dedicated to showcase my programming
+                        and coding skills as well as how much do I understand the concepts I
+                        learned</li>
+                    <li>
+                        There would be web pages that is actually my project, one of which is a
+                        public documentation of everything that I learned with the mission of
+                        encouraging productivity through convenient learning and problem solving,
+                        more details <a href="#">here</a>
+                    </li>
+                </ul>
+            </p>
+        </section>
+        <section>
+            <h2 id="s2">About me</h2>
+            <figure>
                 <a href="https://facebook.com/JedMat.21" target="_blank">
-                    <img src="/assets/img/SelfPicture.png" alt="Selfie Picture of Jeddeius" style="width: 50%; height: 50%;">
+                    <img src="/assets/img/SelfPicture.png" alt="Selfie Picture of Jeddeius"
+                        style="width: 50%; height: 50%;">
                 </a>
-                <p>Hello! I'm <strong>Jeddeius 'Jedd' Matthew J. Tolentino</strong> </p>
-                <h3>My Beliefs</h3>
-                <p>In this world with endless problems, we despise solving problems because of human nature, we seek for comfort rather than hardship. However, it came to my reflection and realization that the perception of the society towards problem and solving them has lead to a gradual progression of depression, apathy, and narrow source of happiness for the majority of the population. But the true beauty of life comes down to solving endless problems. Without problems, life as we know it, would be purposeless, the world, proven by physics, will always contain inequality, if life doesn't have problem, then everything is condense into one, everything is one and equal, which violates the phenomenon. Despising problem and solving them would only lead to pain, suffering, and death. Our happiness will be limited to results and solve problems, which is never the case, we should live the moment of solving the problem, feel the moment and experience, and enjoy the process, and that is life, it's about enjoying the process, not just the product of it, but this process should sustain itself, maintain and improve itself, and that's the essence of problem solving, in solving problem, we gain more strength and time to continue solving these endless problems til exhaustion or death.</p>
-                <p style="border-left: 5px #ff0000 solid; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; background-color: #ff00001c;">This concept is very hard to grasp and understand, even I don't fully understand it, but It's in my head, waiting to be shared with others, so that humanity will live not in depression and desperation, but with prosperity and happiness. I'm still finding ways to refine it, so that I can explain it to my fellow humans what did I discovered and reflected upon</p>
+                <figcaption>Hello! I'm <b>Jeddeius 'Jedd' Matthew J. Tolentino</b></figcaption>
+            </figure>
+            <div class="casualDiv">
+                <h3 id="s2-1">My Beliefs</h3>
+                <p>In this world with endless problems, we despise solving problems because of human nature, we seek
+                    for
+                    comfort rather than hardship. However, it came to my reflection and realization that the
+                    perception
+                    of the society towards problem and solving them has lead to a gradual progression of depression,
+                    apathy, and narrow source of happiness for the majority of the population. But the true beauty
+                    of
+                    life comes down to solving endless problems. Without problems, life as we know it, would be
+                    purposeless, the world, proven by physics, the world and our lives will always contain
+                    inequality,
+                    if life doesn't have problem, then everything is condense into one, everything is one and equal,
+                    which violates the phenomenon. Despising problem and solving them would only lead to pain,
+                    suffering, and death. Our happiness will be limited to results and solve problems, which is
+                    never
+                    the case, we should live the moment of solving the problem, feel the moment and experience, and
+                    enjoy the process, and that is life, it's about enjoying the process, not just the product of
+                    it,
+                    but this process should sustain itself, maintain and improve itself, and that's the essence of
+                    problem solving, in solving problem, we gain more strength and time to continue solving these
+                    endless problems til exhaustion or death.</p>
+                <p
+                    style="border-left: 5px #ff0000 solid; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; background-color: #ff00001c;">
+                    This concept is very hard to grasp and understand, even I don't fully understand it, but It's in
+                    my
+                    head, waiting to be shared with others, so that humanity will live not in depression and
+                    desperation, but with prosperity and happiness. I'm still finding ways to refine it, so that I
+                    can
+                    explain it to my fellow humans what did I discovered and reflected upon</p>
                 <p>
-                    There are many people, chasing for happiness, thinking it is something that is achieved, but happiness is rather experienced, and to continue experience it, it should sustain itself. I want people to experience the realization and revelation I reflected upon. In solving problem, I gain strength to solve problems further, and when this cycle repeats, then there is life, because it's continuos and shows lack of entropy, and when we live in the moment, the experience, the process of solving problems, then we become happy, content, and fulfilled. This is life the world desire so much! And ladies and gentlemen, I think I figure out the essence of life!
+                    There are many people, chasing for happiness, thinking it is something that is achieved, but
+                    happiness is rather experienced, and to continue experience it, it should sustain itself. I want
+                    people to experience the realization and revelation I reflected upon. In solving problem, I gain
+                    strength to solve problems further, and when this cycle repeats, then there is life, because
+                    it's
+                    continuos and shows lack of entropy, and when we live in the moment, the experience, the process
+                    of
+                    solving problems, then we become happy, content, and fulfilled. This is life the world desire so
+                    much! And ladies and gentlemen, I think I figure out the essence of life!
                 </p>
                 <p>This is just the tip of the iceberg!</p>
-                <h3>My Vision</h3>
-                <p>I desire a life where I do what I love that contributes to the continuation of humanity and life itself and prosperity of the humanity, in a very broad term, solving endless problem till death. Breaking it down, I want to create things that contributes to overall goodness of humanity, learn and discover things, and teach them to the world. Earn and improve various skills and knowledge. Create relationships and connections, why? I can't deny that I'm a human, a very social creature. With the knowledge and skills I gained, I want to solve various problems that matter to the world and also to contribute to solving a massive problem, because even a small contribution is a part of an overall force or mass. I want to be a well rounded person</p>
+            </div>
+            <div class="casualDiv">
+                <h3 id="s2-2">My Vision</h3>
+                <p>I desire a life where I do what I love that contributes to the continuation of humanity and life
+                    itself and prosperity of the humanity, in a very broad term, solving endless problem till death.
+                    Breaking it down, I want to create things that contributes to overall goodness of humanity,
+                    learn
+                    and discover things, and teach them to the world. Earn and improve various skills and knowledge.
+                    Create relationships and connections, why? I can't deny that I'm a human, a very social
+                    creature.
+                    With the knowledge and skills I gained, I want to solve various problems that matter to the
+                    world
+                    and also to contribute to solving a massive problem, because even a small contribution is a part
+                    of
+                    an overall force or mass. I want to be a well rounded person</p>
                 <p>I kind of want to be a father of preferably fraternal twins</p>
-            
-                <h3>My Mission</h3>
-                <p>Continuously maintain and improve myself, particularly my skills, knowledge, health, and my personality over an efficient but reasonable amount of time. Become a functioning member of the society. Become likeable to people and have a great social skills</p>
-            </section>
+            </div>
+            <div class="casualDiv">
+                <h3 id="s2-3">My Mission</h3>
+                <p>Continuously maintain and improve myself, particularly my skills, knowledge, health, and my
+                    personality over an efficient but reasonable amount of time. Become a functioning member of the
+                    society. Become likeable to people and have a great social skills</p>
+            </div>
+        </section>
+        <section>
+            <h2 id="s3">Achievements and skills</h2>
+
+
+        </section>
+        <section id="veryUnique">
+            <h2 id="s4">Projects</h2>
+            <p>This section provides a list of hyperlinks to my various projects</p>
+            <ul>
+                <li><a href="/LeanProgramming/index.html">Learn programming here</a></li>
+                <li><a href="/Chemistry/index.html">A website to make calculations in chemistry much more easier
+                        and user-friendly</a></li>
+                <li><a href="/Mathematics/index.html">Website that teach you mathematics</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="main">
             <section>
-                <h2>Portals</h2>
-                <p>This section provides a list of hyperlinks to my various web pages</p>
+                <h2>About me</h2>
                 <ul>
-                    <li><a href="/LeanProgramming/MainPage.html">Learn programming here</a></li>
-                    <li><a href="/Chemistry/MainPage.html">A website to make calculations in chemistry much more easier and user-friendly</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <address> <!-- contact information -->
+                        <li><a href="#">Contact</a></li>
+                    </address>
+                    <li><a href="#">Mission</a></li>
+                </ul>
+
+                <h2>Social</h2>
+                   <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Reddit</a></li>
+                    <li><a href="#">Telegram</a></li>
+                  </ul>
+
+                <h2>Service</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
                 </ul>
             </section>
-        </main>
+            <section id="cite">
+                <h2>Cite</h2>
+                <p>Favicon By Emoji One, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=89203057">Link</a></p>
+            </section>
+        </div>
+    </footer>
 
-        <footer>
-
-        </footer>
-    
-    </div>
 </body>
+
 </html>
